@@ -1,0 +1,116 @@
+.face{
+    height: 250px;
+    width: 250px;
+    background-color:pink;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 8%;
+    position: absolute;
+    border:2px solid black;
+}
+.eyes{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 250px;
+    margin-top: 20.3%;
+    margin-left: -7.8;
+}
+
+#leye{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;   
+}
+#reye{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+.hole{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 250px;
+    margin-top: 25%;
+}
+
+#lhole{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+
+    border-radius: 50%;   
+}
+#rhole{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    
+    border-radius: 50%;
+}
+.mouth{
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 30%;
+    justify-content: space-evenly;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border:2px solid black;
+}
+.nose{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 100px;
+    margin-top: 12px;
+    margin-left: 4px;
+}
+
+#nose1{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+
+    border-radius: 50%;   
+}
+#nose2{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    
+    border-radius: 50%;
+}
+.ears{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 250px;
+    margin-top:10%;
+    margin-left: 38%;
+    position: relative;
+}
+
+#lears{
+    height: 90px;
+    width: 90px;
+    background-color: pink;
+    border-top-left-radius: 90%;
+    border-top-right-radius: 90%;
+    border:2px solid black   
+}
+#rears{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border:2px solid black  
+}
